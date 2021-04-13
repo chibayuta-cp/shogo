@@ -1,0 +1,21 @@
+.contact-btn {
+  width: 155px;
+  height: 37px;
+  background: linear-gradient(to right, #fa41cc, #6020b0);
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  line-height: 37px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.contact-btn:hover {
+  opacity: 0.5;
+}
+
+.contact-btn:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}

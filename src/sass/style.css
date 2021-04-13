@@ -1,0 +1,140 @@
+.header {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 94px;
+}
+
+.header-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo img {
+  height: 47px;
+  width: 47px;
+}
+
+.header-ttl {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+}
+
+.header-nav ul li {
+  text-align: center;
+  margin-right: 45px;
+}
+
+.header-nav ul li a {
+  color: black;
+}
+
+.header-nav ul li a:hover {
+  opacity: 0.5;
+}
+
+.header-nav ul li a:active {
+  position: relative;
+  top: 3px;
+}
+
+.header .hanberger-btn img {
+  height: 47px;
+  width: 47px;
+}
+
+.header .hanberger {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header .hanberger li {
+  list-style: none;
+  color: #333;
+}
+
+.header .hanberger-nav {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 20px 3%;
+}
+
+.contact-btn {
+  width: 155px;
+  height: 37px;
+  background: -webkit-gradient(linear, left top, right top, from(#fa41cc), to(#6020b0));
+  background: linear-gradient(to right, #fa41cc, #6020b0);
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  line-height: 37px;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.contact-btn:hover {
+  opacity: 0.5;
+}
+
+.contact-btn:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+  margin-top: 94px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
